@@ -7,7 +7,7 @@
 	"apps": [{
 		"id": "jx_tixian",
 		"name": "京喜财富岛体现（第一次搞，有问题谅解）",
-		"keys": ["token"],
+		"keys": ["farm_jstoken"],
 		"settings": [
 			{
 				"id": "jx_tixian",
