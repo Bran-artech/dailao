@@ -24,34 +24,34 @@
 			""
 		]
 	},{
-	  "id": "nioapp",
-	  "name": "NIoNio(失效)",
-	  "keys": ["fornum", "niocoinbody", "niocoinkey", "nioexpbody", "nioexpkey", "niocoinbody2", "niocoinkey2", "nioexpbody2", "nioexpkey2", "niocoinbody3", "niocoinkey3", "nioexpbody3", "nioexpkey3", "niocoinbody4", "niocoinkey4", "nioexpbody4", "nioexpkey4", "niocoinbody5", "niocoinkey5", "nioexpbody5", "nioexpkey5", "niocoinbody6", "niocoinkey6", "nioexpbody6", "nioexpkey6", "niocoinbody7", "niocoinkey7", "nioexpbody7", "nioexpkey7", "niocoinbody8", "niocoinkey8", "nioexpbody8", "nioexpkey8", "niocoinbody9", "niocoinkey9", "nioexpbody9", "nioexpkey9", "niocoinbody10", "niocoinkey10", "nioexpbody10", "nioexpkey11", "niocoinbody11", "niocoinkey11", "nioexpbody11", "nioexpkey11", "niocoinbody12", "niocoinkey12", "nioexpbody12", "nioexpkey12"],
-	  "settings": [
-	    {
-				"id": "nioSuffix",
-				"name": "当前抓取ck账号",
+		"id": "gxmSports",
+		"name": "小米运动",
+		"keys": ["xmSportsToken","xmMinStep","xmMaxStep","xmSportsToken2","xmMinStep2","xmMaxStep2","xmSportsToken3","xmMinStep3","xmMaxStep3","xmSportsToken4","xmMinStep4","xmMaxStep4"],
+		"settings": [
+			{
+				"id": "xmtoken",
+				"name": "小米运动token",
+				"val": "",
+				"type": "textarea",
+				"desc": "JSON 格式"
+			},{
+				"id": "xmmin",
+				"name": "最小运动步数",
 				"val": "1",
 				"type": "number",
-				"desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+				"desc": "需要修改的最小的步数"
 			},{
-				"id": "nioCount",
-				"name": "脚本执行账号个数",
-				"val": "1",
+				"id": "xmmax",
+				"name": "最大运动步数",
+				"val": "",
 				"type": "number",
-				"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-			},{
-				"id": "fornum",
-				"name": "脚本执行循环次数",
-				"val": "120",
-				"type": "number",
-				"desc": "指定任务每次跑几次,初始次数120"
+				"desc": "需要修改的最多的步数"
 			}
-	  ],
-	  "author": "@cenbomin",
-	  "repo": ["https://raw.githubusercontent.com/CenBoMin/nio"],
-	  "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/nio.js",
-	  "icons": ["", ""
+		],
+		"author": "@Bran-artech",
+		"repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
+		"script": "https://jdsharedresourcescdn.azureedge.net/jdresource/backUp/xmSports.js",
+		 "icons": ["", ""
 	  ]
 	}]
 }
