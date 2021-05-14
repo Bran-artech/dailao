@@ -7,7 +7,7 @@
 	"apps": [{
 		"id": "jx_tixian",
 		"name": "京喜财富岛体现（第一次搞，有问题谅解）",
-		"keys": ["helpbang","helpbangkey"],
+		"keys": ["token"],
 		"settings": [
 			{
 				"id": "jx_tixian",
@@ -17,7 +17,7 @@
 				"desc": "JSON 格式"
 			}
 		],
-		"author": "@cenbomin",
+		"author": "@Bran-artech",
 		"repo": ["https://github.com/Bran-artech/dailao"],
 		"script": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js",
 		"icons": ["",
