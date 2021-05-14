@@ -29,6 +29,18 @@
 		"keys": ["xmSportsToken","xmMinStep","xmMaxStep","xmSportsToken2","xmMinStep2","xmMaxStep2","xmSportsToken3","xmMinStep3","xmMaxStep3","xmSportsToken4","xmMinStep4","xmMaxStep4"],
 		"settings": [
 			{
+				"id": "xm",
+				"name": "当前抓取ck账号",
+				"val": "1",
+				"type": "number",
+				"desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+			},{
+				"id": "xm",
+				"name": "脚本执行账号个数",
+				"val": "4",
+				"type": "number",
+				"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+			},{
 				"id": "xmtoken",
 				"name": "小米运动token",
 				"val": "",
