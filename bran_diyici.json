@@ -24,7 +24,7 @@
 			""
 		]
 	},{
-		"id": "gxmSports",
+		"id": "xmSports",
 		"name": "小米运动",
 		"keys": ["xmSportsToken","xmMinStep","xmMaxStep","xmSportsToken2","xmMinStep2","xmMaxStep2","xmSportsToken3","xmMinStep3","xmMaxStep3","xmSportsToken4","xmMinStep4","xmMaxStep4"],
 		"settings": [
